@@ -1,0 +1,64 @@
+body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #121212;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     overflow: hidden
+ }
+ 
+ .lottery-container {
+     max-width: 600px;
+     margin: 0 auto;
+     padding: 20px;
+     background-color: #1e1e1e;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+ }
+ 
+ .ticket {
+     border: 2px solid #ff4c4c;
+     padding: 10px;
+     border-radius: 10px;
+     background-color: #2c2c2c;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     font-size: 24px;
+ }
+ 
+ .ticket span {
+     background-color: #ff4c4c;
+     padding: 10px;
+     border-radius: 5px;
+ }
+ 
+ .ticket-button {
+     margin-top: 20px;
+     margin-left: 35px;
+     padding: 10px 20px;
+     font-size: 16px;
+     border: none;
+     border-radius: 5px;
+     background-color: #ff4c4c;
+     color: white;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+ 
+ .ticket-button:hover {
+     background-color: #3be093;
+ }
+ 
+ .message {
+     margin-top: 20px;
+     font-size: 18px;
+ }
+ 
+ .message.winning {
+     color: #1678c9;
+ }
+ 
