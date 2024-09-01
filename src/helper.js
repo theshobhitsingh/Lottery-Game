@@ -9,4 +9,3 @@ export function generateTicket(n) {
  export function sum(array) {
      return array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
  }
- 
